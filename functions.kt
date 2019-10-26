@@ -26,9 +26,12 @@ fun dayOfWeek() {
     displayDayInfo("Today is ${day} and it is $weather")
 }
 
-fun displayDayInfo(result: String) {
-    println(result)
-}
+// fun displayDayInfo(result: String) {
+//     println(result)
+// }
+
+fun displayDayInfo(result: String) = println(result)
+
 
 fun main(args: Array<String>) {
     dayOfWeek()
